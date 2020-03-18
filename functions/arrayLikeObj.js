@@ -31,3 +31,16 @@ console.log("ES6: ", q2) //"was it in the billiards room?"
 
 //Motivation behind turning the array-like object (arguments) into an array?
 //  want access to Array methods (push and join)
+
+
+//Note: functions are objects too 
+/*
+    const add = function(a, b) {
+        return a+b;
+    }
+
+    add.example = 'testing 123!'
+
+    console.log('👀', add.example) //👀 testing 123!
+
+*/
